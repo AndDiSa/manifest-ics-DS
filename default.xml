@@ -151,7 +151,7 @@
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="AndDiSa/ICS-external_webrtc" remote="gh" revision="ads-ics"/>
-  <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="gh" revision="ics" />
+  <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="gh" revision="ics"/>
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="gh" revision="ics" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="gh" revision="ics"/>
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="gh" revision="ics"/>
@@ -180,6 +180,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="gh" revision="ics" />
   <project path="libcore" name="TeamICS/android_libcore" remote="gh" revision="ics"/>
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -245,6 +246,6 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
-  <project path="system/wlan/ti" name="CyanogenMod/android_hardware_ti_wlan" remote="gh" revision="ics" />
+  <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" remote="gh" revision="gingerbread" />
   <project path="isc_fixes" name="TeamICS/ICS_Fixes" remote="gh" revision="ics"/>
 </manifest>
