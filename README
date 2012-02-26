@@ -13,6 +13,28 @@ Much thanks is required to the following:
   their hard work is in this rom as many others.
 - ezTerry who gave the bases with ezGingerbread for the build system
 
+
+Please note: this is still a work in progress!
+Working:
+- phone
+- 2G/3G - network
+- sdcard
+- bluetooth
+- zram
+- ksm
+- ...
+
+Not working:
+- audio / sound
+- camera
+- wifi
+
+Additional work to do:
+- a2ext / magpie
+
+You need a system partition of at least 140MB (!)
+
+
 Binary Distributions
 --------------------
 
