@@ -184,7 +184,7 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="AndDiSa/android_hardware_libhardware_legacy" remote="gh" revision="ads-ics"/>
   <project path="hardware/msm7k" name="AndDiSa/android_hardware_msm7k" remote="gh" revision="ads-ics"/>
   <project path="hardware/qcom/camera" name="TeamICS/android_hardware_qcom_camera" remote="gh" revision="master"/>
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display"/>
