@@ -29,7 +29,7 @@
   <project path="device/htc/common" name="device/htc/common" remote="aosp" revision="master" />
   <project path="device/htc/dream-sapphire" name="AndDiSa/GB-device_htc_dream-sapphire" remote="gh" revision="ads-ics" />
   <project path="device/htc/sapphire" name="AndDiSa/GB-device_htc_sapphire" remote="gh" revision="ads-ics" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
+<!--  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" /> -->
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -183,7 +183,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
+  <!-- <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" /> -->
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="AndDiSa/android_hardware_libhardware_legacy" remote="gh" revision="ads-ics"/>
