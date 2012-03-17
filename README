@@ -131,7 +131,7 @@ Next we need to copy the Proprietary Files from an existing build into yourlocal
 
 A) Download a known good version of ezGingerbread/ADS_Magpie (most recent or the approved one below) and name it sapphire_update.zip in the root of the ~/android/ads-ics directory
 
-     curl http://dl.dropbox.com/u/9870397/android/ADS_magpie/ADS_magpie-V1.0-signed.zip > sapphire_update.zip
+     curl http://dl.dropbox.com/u/9870397/android/ADS_magpie/ADS_magpie-V1.0-signed.zip > dream_sapphire_update.zip
 
 
 B) Now extract proprietary files with the unzip-files.sh script
