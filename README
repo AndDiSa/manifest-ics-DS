@@ -27,7 +27,6 @@ Working:
 Not working:
 - audio / sound
 - camera
-- wifi
 
 Additional work to do:
 - a2ext / magpie
@@ -132,11 +131,12 @@ Next we need to copy the Proprietary Files from an existing build into yourlocal
 
 A) Download a known good version of ezGingerbread/ADS_Magpie (most recent or the approved one below) and name it sapphire_update.zip in the root of the ~/android/ads-ics directory
 
-     curl http://sandbox.devnull.name/android/gingerbread/GINGERBREAD-DS-Beta-20110716.zip > sapphire_update.zip
+     curl http://dl.dropbox.com/u/9870397/android/ADS_magpie/ADS_magpie-V1.0-signed.zip > sapphire_update.zip
+
 
 B) Now extract proprietary files with the unzip-files.sh script
 
-     cd device/htc/sapphire/
+     cd device/htc/dream-sapphire/
      ./unzip-files.sh
      cd ~/android/ads-ics
 
@@ -160,9 +160,9 @@ a dual core is 'make -j3 otapackage'
      can take 3-4h to build on a single core.
 
 D) after you realize the build is done (ie fan on computer stopped working overtime) the flash-able image will be:
-ls out/target/product/sapphire/full_sapphire-ota-eng.<your username>.zip
+ls out/target/product/dream_sapphire/full_dream_sapphire-ota-eng.<your username>.zip
 
-so 'ls -l out/target/product/sapphire/full_sapphire-ota-eng*zip'
+so 'ls -l out/target/product/dream_sapphire/full_dream_sapphire-ota-eng*zip'
 
 The resulting image will be the EBI0/EBI1/2708+ anykernel installer
 
